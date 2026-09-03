@@ -4,14 +4,11 @@ import Link from "next/link";
 export default function home() {
   return (
     <div>
-      <h1>Welcome to Home Page</h1>
-      <Link href="/profile">Profile</Link>
+      <h1>Selamat datang di sistem portal sekolah</h1>
+      <Link href="/teachers">Daftar Guru</Link>
       <br />
-      <Link href="/about">About</Link>
+      <Link href="/library">Daftar Buku</Link>
       <br />
-      <Link href="/products">Products</Link>
-      <br />
-      <Link href="/blogs">Blogs</Link>
     </div>
   );
 }
